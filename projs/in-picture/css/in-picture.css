@@ -1,0 +1,85 @@
+
+body{
+    background-image :url("../img/explode.jpg");
+    background-repeat: repeat;
+    /* background-size: cover; */
+}
+
+.buttons-container button.button-color{
+    background-color: rgb(190, 21, 9);
+}
+
+.hidden{
+    /* display: none; */
+    visibility: hidden;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.buttons-container{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.buttons-container button{
+    display: block;
+    margin-top: 10px;
+    width: 550px;
+    height: 50px;
+    border-radius: 45%;
+    background-color: rgb(36, 103, 180);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
+    color: black;
+}
+
+.img-div{
+    position: relative;
+    margin: 10px auto 40px;
+    width: 550px;
+    /* margin: 0 auto; */
+}
+
+img.main-img{
+    margin: 0 auto;
+    display: block;
+    width: 550px;
+    height: 500px;
+  }
+
+.score{
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    text-align: center;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+button.restart{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    box-shadow: 10%;
+    background-color: green;
+    font-weight: bold;
+}
+
+header h1{
+    text-align: center;
+    font-size: 36px;
+}
+

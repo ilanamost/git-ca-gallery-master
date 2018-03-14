@@ -1,0 +1,64 @@
+
+body{
+    background: rgb(110, 109, 109);
+}
+
+button{
+    color: black;
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+table {
+    margin-top: 70px;
+    color: white;
+    background-color:orange;
+    border-color: black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+td{
+    text-align: center;
+}
+
+.selected{
+    background-color: red;
+}
+
+.game-timer{
+    float: right;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.next-num{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    float: left;
+}
+
+.level-difficulty{
+    text-align:center;
+    background-color: blueviolet;
+    padding: 20px;
+    font-weight: bold;
+}
+
+input{
+    text-align:center;
+    margin: 10px;;
+    color:white;
+    font-size: 20px;
+}
+
+.app-body{
+    padding: 80px;
+}
+

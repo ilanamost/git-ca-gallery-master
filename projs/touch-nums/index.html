@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/my-style.css">
+</head>
+
+<body> 
+    <div class="app-header"></div>
+    <button onClick="resetGame()">New</button>
+
+
+    <div class="level-difficulty">Choose your level:<br/> 
+        <input type="radio" class = "easy" onchange="changeLevel(this)">Easy</input>
+        <input type="radio" class = "hard" onchange="changeLevel(this)">Hard</input>
+        <input type="radio" class = "extreme" onchange="changeLevel(this)">Extreme</input>
+    </div>
+    <div class="game-timer"></div>
+    <div class="next-num">Next Num: 1</div>
+
+    <div class="app-body">
+        <table border="2px solid black" cellpadding="10">
+            <thead>
+            </thead>
+            <tbody class="tbl-nums">
+            </tbody>
+        </table>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

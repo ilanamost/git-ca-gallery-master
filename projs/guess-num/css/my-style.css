@@ -1,0 +1,64 @@
+
+.app-header{
+    background-color: black;
+    color: yellow;
+    padding: 30px;
+    height: 400px;
+}
+
+body{
+    background-color: rgba(255, 196, 0, 0.699);
+}
+
+.app-header h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.app-body h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+button{
+    margin-left: 47%;
+    border-radius: 10%;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: lightseagreen;    
+}
+
+button:hover {
+   background-color: blue;
+}
+
+h1 span{
+    color: grey;
+}
+
+.app-header .player-name{
+    color: white;
+    float: right;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.app-header .player-name span{
+    color: lightseagreen;   
+}
+
+img{
+    height: 70px;
+    width: 70px;
+}
+
+.user-msg{
+    color: white;
+    size: 18px;
+    text-align: center;
+}

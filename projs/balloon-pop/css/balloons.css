@@ -1,0 +1,29 @@
+
+body{
+    background-color: lightblue;
+}
+
+.balloon{
+    position: absolute;
+    width: 75px;
+    height: 100px;
+    border-radius: 50%;
+    bottom: 0;
+    transition: opacity 2s;
+}
+/* 
+.balloon1{
+    left: 100px;
+}
+
+.balloon2{
+    left: 200px;
+}
+
+.balloon3{
+    left: 300px;
+}
+
+.balloon4{
+    left: 400px;
+}  */

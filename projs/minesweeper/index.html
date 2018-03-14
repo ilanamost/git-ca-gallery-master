@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="css/minesweeper.css">
+</head>
+
+<body onload="initGame()">
+    <header>
+        <button onClick="resetGame()">New Game</button>
+        <div class="level-difficulty">Choose your level:
+            <br/>
+            <input type="radio" class="easy" onchange="changeLevel(this)">Easy</input>
+            <input type="radio" class="hard" onchange="changeLevel(this)">Hard</input>
+            <input type="radio" class="extreme" onchange="changeLevel(this)">Extreme</input>
+        </div>
+        <div class="game-timer">Time:</div>
+    </header>
+
+    <main>
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="js/utils.js"></script>
+    <script src="js/minesweeper.js"></script>
+</body>
+
+</html>
