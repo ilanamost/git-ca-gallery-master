@@ -104,7 +104,7 @@ function renderModals() {
                     <!-- Project Details Go Here -->
                     <h2 class="proj-name-color">${proj.name}</h2>
                     <p class="item-intro">${proj.title}</p>
-                    <a href="../projs/${proj.id}/index.html">
+                    <a href="projs/${proj.id}/index.html">
                     <img class="img-fluid d-block mx-auto" src='img/portfolio/${proj.id}-thumbnail.png' alt="">
                     </a>
                     <p class="font-color">${proj.desc}</p>
