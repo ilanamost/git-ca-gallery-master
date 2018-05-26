@@ -1,14 +1,6 @@
-# [Cosing Academy - Base Gallery]
-A responsive portfolio grid to be used by Coding Academy students
+# git-ca-gallery-master
 
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML, CSS and JS files included with the template to Make-it-Yours.
-
+https://ilanamost.github.io/git-ca-gallery-master/
 
 ## Copyright and License
-
 Code released under the [MIT] license.
